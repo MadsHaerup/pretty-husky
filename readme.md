@@ -1,7 +1,7 @@
 # pretty-husky
 
 ## what is it?
-It will format your code and run test before committing.
+It will format your code and run the tests before committing.
 
 The idea of pretty-husky is to automate the time consuming process of manually setting up the following files and commands.
 
