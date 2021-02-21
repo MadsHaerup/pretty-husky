@@ -26,15 +26,18 @@ Files needed to be created
 * Running prettier
 * Running tests
 
-installs a pre-commit hook for prettier
+install a pre-commit hook for prettier, husky and lint-staged
 * `npx mrm lint-staged` 
+* add "prettier": "prettier --write ." to scripts or use "prettier --write src/" to only format files in the src folder etc.
 
-installs husky folder
+By running `npm run prettier`, we can now manually prettify the files.
+
+install husky folder
 * `npx husky install`
-* add npm test to pre-commit file
 
-installs a pre-commit hook for our tests
+install a pre-commit hook for our tests, 
 * `npx husky add .husky/pre-commit "npm test"` 
+* add npm run prettier to the pre-commit file
 
 ### Install cross-env
 `npm i -D cross-env`
