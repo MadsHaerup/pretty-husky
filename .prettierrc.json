@@ -10,5 +10,5 @@
   "arrowParens": "always",
   "htmlWhitespaceSensitivity": "css",
   "printWidth": 120,
-  "quoteprops": "consistent"
+  "quoteProps": "consistent"
 }
